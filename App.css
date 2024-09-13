@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.navButtons {
+  display: flex;
+  gap: 10px;
+  justify-content: center; 
+  flex-grow: 1; 
+}
+
+.button {
+  padding: 10px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cartIcon {
+  margin-left: auto;
+}
+
+.body {
+  text-align: center;
+  margin-top: 50px;
+}
